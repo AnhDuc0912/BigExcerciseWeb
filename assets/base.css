@@ -1,0 +1,85 @@
+.fa-sharp.fa-solid.fa-ghost{
+    color: var(--primary-color);
+    font-size: 30px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: inherit;
+}
+ul{
+    font-size: 14px;
+    list-style: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+main{
+    margin-top: 230px !important;
+    margin-bottom: 50px !important;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.seperate-right{
+    border-right: 1px solid #999;   
+}
+.fa-solid.fa-magnifying-glass{
+    color: #fff;
+}
+.header-main{
+    width: max-content;
+    height: max-content;
+    padding: 6px 10px !important;
+    border-radius: 42px ;
+    padding: 0 20px;
+    
+}
+.fa-user{
+    color: #777;
+}
+.fa-list{
+    font-size: 14px;
+    color: #555;
+}
+.nav-link{
+    color: #6a6a6a;
+}
+.header-bottom{
+    
+}
+.img a img{
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.price-old{
+    text-decoration: line-through;
+    color: #6a6a6a;
+}
+.price-new{
+    color: var(--text-color);
+    float: right;
+    font-weight: 700;
+}
+.fa-angle-right{
+    font-size: 14px;
+    margin: auto;
+    margin-top: 3px;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
